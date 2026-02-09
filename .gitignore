@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment Variables (CRITICAL)
+.env
+keyfull.txt
+config.json
+op_config.json
+
+# Runtime Data & Logs (Bot state, history, cache)
+*.log
+*.csv
+*.xlsx
+ai_cache.json
+bot_state.json
+trade_history.csv
+performance_stats.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
