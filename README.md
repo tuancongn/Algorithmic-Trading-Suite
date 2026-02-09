@@ -1,12 +1,12 @@
 # 🤖 AI-Driven Quantitative Trading System (High-Frequency & Swing)
 > ** "A hybrid algorithmic trading engine combining classical Technical Analysis with LLM-based reasoning (Gemini/DeepSeek) and vectorized backtesting."
 
-📖 Introduction
+## 📖 Introduction
 This project represents a sophisticated, modular cryptocurrency trading ecosystem designed for the Bybit Futures market. Unlike traditional bots that rely solely on rigid if-then indicators, this system introduces a Neuro-Symbolic architecture. It fuses mathematical precision (RSI, Bollinger Bands, ATR) with the contextual reasoning capabilities of Large Language Models (LLMs) to detect market regimes, manage risk dynamically, and execute trades with precision.
 
 The repository consists of two main pillars:
-1. Production Trading Engine (Node.js): A multi-agent system managing live orders, trailing stops, and AI inference.
-2. Quantitative Research Lab (Python): A high-performance backtesting suite using vectorbt for strategy validation and parameter optimization.
+1. ** Production Trading Engine (Node.js) **: A multi-agent system managing live orders, trailing stops, and AI inference.
+2. ** Quantitative Research Lab (Python) **: A high-performance backtesting suite using vectorbt for strategy validation and parameter optimization.
 
 🚀 Key Features
 🧠 1. Multi-Agent AI Architecture (Live Engine)
