@@ -1,4 +1,4 @@
-🤖 AI-Driven Quantitative Trading System (High-Frequency & Swing)
+# 🤖 AI-Driven Quantitative Trading System (High-Frequency & Swing)
 "A hybrid algorithmic trading engine combining classical Technical Analysis with LLM-based reasoning (Gemini/DeepSeek) and vectorized backtesting."
 
 📖 Introduction
