@@ -1,5 +1,5 @@
 # 🤖 AI-Driven Quantitative Trading System (High-Frequency & Swing)
-"A hybrid algorithmic trading engine combining classical Technical Analysis with LLM-based reasoning (Gemini/DeepSeek) and vectorized backtesting."
+> ** "A hybrid algorithmic trading engine combining classical Technical Analysis with LLM-based reasoning (Gemini/DeepSeek) and vectorized backtesting."
 
 📖 Introduction
 This project represents a sophisticated, modular cryptocurrency trading ecosystem designed for the Bybit Futures market. Unlike traditional bots that rely solely on rigid if-then indicators, this system introduces a Neuro-Symbolic architecture. It fuses mathematical precision (RSI, Bollinger Bands, ATR) with the contextual reasoning capabilities of Large Language Models (LLMs) to detect market regimes, manage risk dynamically, and execute trades with precision.
