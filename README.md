@@ -8,21 +8,21 @@ The repository consists of two main pillars:
 1. **Production Trading Engine (Node.js)**: A multi-agent system managing live orders, trailing stops, and AI inference.
 2. **Quantitative Research Lab (Python)**: A high-performance backtesting suite using vectorbt for strategy validation and parameter optimization.
 
-🚀 Key Features
-🧠 1. Multi-Agent AI Architecture (Live Engine)
+## 🚀 Key Features
+### 🧠 1. Multi-Agent AI Architecture (Live Engine)
 The core logic (found in go.js) operates based on a "Committee of Experts" model:
-- The Quant (DeepSeek/HuggingFace): Analyzes raw numerical data (RSI, %B, ATR) to calculate statistical probabilities.
-- The Strategist (Llama 3): Interprets Price Action, candlestick patterns (Hammer, Shooting Star), and macro trends.
-- The Risk Manager (Google Gemini): acts as the final judge. It synthesizes inputs from the Quant and Strategist, checks account health, and issues the final APPROVED or REJECTED verdict along with position sizing adjustments.
+- **The Quant (DeepSeek/HuggingFace)**: Analyzes raw numerical data (RSI, %B, ATR) to calculate statistical probabilities.
+- **The Strategist (Llama 3)**: Interprets Price Action, candlestick patterns (Hammer, Shooting Star), and macro trends.
+- **The Risk Manager (Google Gemini)**: acts as the final judge. It synthesizes inputs from the Quant and Strategist, checks account health, and issues the final APPROVED or REJECTED verdict along with position sizing adjustments.
 
-🛡️ 2. Institutional-Grade Risk Management
+### 🛡️ 2. Institutional-Grade Risk Management
 Safety is prioritized over profit. The system implements:
 - Dynamic Position Sizing: Calculates lot size based on account balance and specific invalidation points (Stop Loss distance) to maintain consistent R-risk.
 - Anti-Knife Catching: Logic to block "Long" signals during "Waterfall" market crashes (e.g., when Price < Lower Band & Momentum is high).
 - Volatility Guards: Automatic cooldown periods after rejected trades to prevent over-trading.
 - Trailing Stop: An intelligent step-based trailing mechanism to lock in profits (R-multiples) as the trend develops.
 
-📊 3. High-Performance Backtesting
+### 📊 3. High-Performance Backtesting
 The Python module (Backtesting.py) ensures strategies are mathematically sound before deployment:
 - Vectorized Testing: Uses vectorbt to simulate thousands of candles in seconds.
 - Grid Search Optimization: Automatically iterates through combinations of parameters (EMA periods, RSI thresholds, SL multipliers) to find the "Global Maxima" for profitability.
