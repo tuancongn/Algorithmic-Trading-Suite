@@ -94,7 +94,7 @@ Throughout the development of this project, several complex challenges were addr
 1.  **🚦 API Rate Limiting**: Implemented a `KeyPool` system to rotate between API keys and smart retry logic with exponential backoff to handle HTTP 429/503 errors.
 2.  **🤖 LLM Hallucinations**: Enforced strict JSON output schemas and added a validation layer (`cleanAndParseJSON`) to ensure the AI's output is always machine-readable and executable.
 3.  **⚡ Latency**: Optimized the critical path by running lightweight indicator calculations locally and only calling external AI APIs when a high-probability setup is detected.
-4.  **🛟 Crash Recovery**: Designed a state file (`bot_state.json`) mechanism that allows the bot to resume managing active positions seamlessly after a restart.
+4.  **🤕 Crash Recovery**: Designed a state file (`bot_state.json`) mechanism that allows the bot to resume managing active positions seamlessly after a restart.
 
 ---
 
