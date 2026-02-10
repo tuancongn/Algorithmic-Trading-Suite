@@ -62,7 +62,7 @@ plt.switch_backend('Agg')
 # 1. CONFIGURATION & UTILITIES
 # ==============================================================================
 
-def load_config(path='config.json'):
+def load_config(path='config_gemini.json'):
     """
     Load cấu hình từ file JSON.
     
@@ -998,3 +998,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
