@@ -1,5 +1,5 @@
 # 🤖 AI-Driven Quantitative Trading System (High-Frequency & Swing)
-> **"A hybrid algorithmic trading engine combining classical Technical Analysis with LLM-based reasoning (Gemini/DeepSeek) and vectorized backtesting."**
+> **"A comprehensive algorithmic trading ecosystem combining Technical Analysis, Ensemble Machine Learning (XGBoost/LightGBM), and Neuro-Symbolic LLM reasoning."**
 
 ---
 
@@ -31,6 +31,14 @@ The Python module (`Backtesting.py`) ensures strategies are mathematically sound
 *   **Vectorized Testing**: Uses `vectorbt` to simulate thousands of candles in seconds.
 *   **Grid Search Optimization**: Automatically iterates through combinations of parameters (EMA periods, RSI thresholds, SL multipliers) to find the **"Global Maxima"** for profitability.
 *   **Detailed Reporting**: Generates Excel reports with Equity Curves, Sharpe Ratios, and Drawdown analysis.
+
+### 🤖 **4. Advanced ML Signal Generator (gemini.py)**
+A dedicated **Machine Learning research module** designed to predict short-term price movements with high statistical confidence:
+
+*   **🧠 Ensemble Learning**: Aggregates predictions from 5 distinct models (LightGBM, XGBoost, Neural Networks, Random Forest, Gradient Boosting) to reduce variance and overfitting.
+*   **🔄 Walk-Forward Optimization**: Implements strict time-series cross-validation (Train/Val/Test splits) to simulate real-world performance and eliminate look-ahead bias.
+*   **🏷️ Market Regime Awareness**: Automatically classifies market states (Bull, Bear, Sideways) using Momentum & Trend strength to adjust position sizing dynamically.
+*   **🔧 Advanced Feature Engineering**: Computes **38+ indicators** including Kaufman Efficiency Ratio, Volatility-Scaled Returns, and Shadow Asymmetry to capture hidden market microstructure.
 
 ---
 
@@ -77,13 +85,14 @@ graph TD
 │   ├── prompt.txt          # System prompts for AI Agents
 │   └── trade_history.csv   # Trade logging
 │
-├── 🔵 Python (Research)
-│   ├── Backtesting.py      # VectorBT simulation & Optimization
+├── 🔵 Python (Research & ML)
+│   ├── Backtesting.py      # VectorBT simulation (Indicator-based)
+│   ├── gemini.py           # ML Ensemble Strategy (LightGBM/XGBoost/NN)
 │   ├── trading.py          # Lightweight Python execution script
 │   └── requirements.txt    # Python dependencies
 │
-├── 📄 README.md            # This file
-└── 📜 .gitignore
+├── 📄 README.md            # Project documentation
+└── 📜 .gitignore           # Git ignore file
 ```
 
 ---
