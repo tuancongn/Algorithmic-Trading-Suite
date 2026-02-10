@@ -53,7 +53,8 @@ A dedicated **Machine Learning research module** designed to predict short-term 
 
 **Quantitative Research (Python)**
 *   **Core**: Python 3.10+
-*   **Data Science**: `pandas`, `numpy`
+*   **Data Science**: `pandas`, `numpy`, `scikit-learn`
+*   **Machine Learning**: `LightGBM`, `XGBoost`, `TensorFlow/Keras` (Optional)
 *   **Backtesting**: `vectorbt` (Vectorized Backtesting)
 *   **Exchange**: `pybit` (Data fetching)
 
