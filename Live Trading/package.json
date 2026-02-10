@@ -1,0 +1,24 @@
+{
+  "name": "ai-quant-trading-bot",
+  "version": "1.0.0",
+  "description": "Hybrid AI-Algo Trading Engine for Bybit Futures",
+  "main": "go.js",
+  "scripts": {
+    "start": "node go.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trading",
+    "bot",
+    "bybit",
+    "ai",
+    "quant"
+  ],
+  "author": "Nguyen Cong Lap Nhan",
+  "license": "ISC",
+  "dependencies": {
+    "bybit-api": "^3.10.0",
+    "dotenv": "^16.3.1",
+    "trading-signals": "^3.0.0"
+  }
+}

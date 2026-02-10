@@ -1,0 +1,18 @@
+{
+  "symbol": "BTCUSDT",
+  "timeframe": "15",
+  "leverage": "10",
+  "risk_per_trade_percent": 0.01,
+  "max_position_usdt": 15000,
+  
+  "strategy": {
+    "ema_period": 3000,
+    "rsi_period": 18,
+    "atr_period": 22,
+    "atr_multiplier_sl": 1.5
+  },
+
+  "trailing": {
+    "enabled": true
+  }
+}
