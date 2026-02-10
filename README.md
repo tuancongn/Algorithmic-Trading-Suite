@@ -84,7 +84,6 @@ graph TD
 │   ├── go.js               # Main entry point (Hybrid Strategy)
 │   ├── config.json         # Strategy parameters & API keys
 │   ├── prompt.txt          # System prompts for AI Agents
-│   └── trade_history.csv   # Trade logging
 │
 ├── 🔵 Python (Research & ML)
 │   ├── Backtesting.py      # VectorBT simulation (Indicator-based)
