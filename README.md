@@ -1,4 +1,4 @@
-# 🤖 AI-Driven Quantitative Trading System (High-Frequency & Swing)
+# 🤖 AI-Driven Quantitative Trading System (Algorithmic & Swing)
 > **"A comprehensive algorithmic trading ecosystem combining Technical Analysis, Ensemble Machine Learning (XGBoost/LightGBM), and Neuro-Symbolic LLM reasoning."**
 
 ---
